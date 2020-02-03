@@ -10,7 +10,6 @@ def main():
 
     sonic=Sonic()
     bot = Bot()
-    __init__()
     STEP_POWER, STEP_STEER= 10, 0.25
     power, steer = 0, 0.0
     running = True
