@@ -55,6 +55,7 @@ def main():
         if inp == 'o':
             if objectsafe == 0:
                 objectsafe = 1
+                print('object detection not working simulate other car...')
             else:
                 objectsafe = 0
                     
