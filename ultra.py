@@ -10,7 +10,7 @@ class Sonic (object):
     def getDistance(self):
         results = []
         # FIXME: How many sonic devices have you plugged in? default: 7
-        for i in range (7):
+        for i in range (2):
             returnValue = self.sonic.measure (ctypes.c_uint (i))
             if returnValue == 0:
                 i -= 1
